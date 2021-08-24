@@ -1,7 +1,7 @@
 // components
 import Layout from "./components/layout";
-import { ActionCreators, State } from "./states";
 import "./styles/App.css";
+import "./styles/viewer.css"
 
 function App() {
   return (

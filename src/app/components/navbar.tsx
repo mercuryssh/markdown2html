@@ -13,7 +13,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <ul>
-        <li>{github}</li>
+        <li>
+          <a href="https://github.com/waterssh/markdown2html">{github}</a>
+        </li>
       </ul>
     </nav>
   );

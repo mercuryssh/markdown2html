@@ -7,7 +7,10 @@ type HeaderProps = {
 export default function Header(props: HeaderProps) {
   return (
     <header className="header">
-      <span className="title">{props.title}</span>
+      <p>
+        <span className="title">{props.title}</span><br/>
+        <span>version 0.4</span>
+      </p>
       <Navbar />
     </header>
   );

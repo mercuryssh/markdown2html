@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { ActionCreators, State } from "../states";
-import { Remark } from 'react-remark';
+import Viewer from './viewer'
 
 
 type CardProps = {
@@ -43,13 +43,7 @@ const WriteAre = (props: any) => {
   );
 };
 
-const ReadAre = (props:any)=>{
-  return (
-    <div>
-      <Remark>{props.text}</Remark>
-    </div> 
-  );
-}
+
 
 const Card = (props: CardProps) => {
   return (
@@ -59,7 +53,7 @@ const Card = (props: CardProps) => {
         {props.side === "right" ? (
           <WriteAre text={props.text} setText={props.setText} />
         ) : (
-          <ReadAre text={props.text}/>
+          <Viewer text={props.text}/>
         )}
       </div>
     </div>

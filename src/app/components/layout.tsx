@@ -1,5 +1,5 @@
 import Header from "./header";
-import { Card, CardGrid } from "./card";
+import {CardGrid } from "./card";
 
 const Layout = () => {
   return (

@@ -1,0 +1,18 @@
+.html-viewer h1{
+    border: solid rgba(0,0,0,.1);
+    border-width: 0 0 1px 0;
+}
+
+.html-viewer blockquote p{
+    border: solid rgba(0,0,0,.1);
+    border-width: 0 0 0 7px;
+    padding: 0.5em 1em;
+}
+.html-viewer blockquote p:hover{
+    border-color: royalblue;
+}
+
+.html-viewer *
+{
+    margin: 0.5em 0;
+}
